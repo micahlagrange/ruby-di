@@ -28,3 +28,13 @@ The script will fall back to BaseExample ( see `classes/base_example.rb`) if you
 $ ruby test.rb a-nonexisting-class
 where is the rebel base
 ```
+
+Try it out!
+`git clone` this repo and run:
+
+```
+cd ruby-di
+./test.rb return-of-the-jedi
+```
+
+Then go read `classes/rotj.rb` to understand what is happening under the hood
