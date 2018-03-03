@@ -1,6 +1,8 @@
+#!/usr/bin/env ruby
+# Script to load the dependencies and output to stdout
+
 Dir['classes/*.rb'].each {|f| require_relative f}
 
-cl = ARGV.first
 
 def camelize(str)
   str.split('-').map {|c| c.capitalize}.join
@@ -14,5 +16,7 @@ def get_instance(cl)
   end
 end
 
-
+# Code that uses the newly imported classes
+cl = ARGV.first
+cl = '' if cl.nil?
 puts get_instance(camelize(cl)).out
