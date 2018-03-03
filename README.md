@@ -1,7 +1,19 @@
 # ruby-di
 Dependency injection in ruby
 
-To demonstrate that this works:
+# Try it out!
+`git clone` this repo and run:
+
+```
+cd ruby-di
+./test.rb return-of-the-jedi
+```
+
+Then go read `classes/rotj.rb` and `test.rb` to understand what is happening under the hood
+
+
+# Using
+To use this:
   - put a new file containing a class that has a method `out` into the classes directory
 `classes/tesb.rb`
 ```
@@ -29,12 +41,3 @@ $ ./test.rb a-nonexisting-class
 where is the rebel base
 ```
 
-Try it out!
-`git clone` this repo and run:
-
-```
-cd ruby-di
-./test.rb return-of-the-jedi
-```
-
-Then go read `classes/rotj.rb` and `test.rb` to understand what is happening under the hood
