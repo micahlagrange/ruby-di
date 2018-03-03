@@ -12,6 +12,7 @@ class TheEmpireStrikesBack
 end
 ```
   - run `ruby test.rb name-of-your-new-class`
+  
 `ruby test.rb the-empire-strikes-back`
  
 It will:
