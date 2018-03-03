@@ -1,5 +1,5 @@
 class BaseExample
   def out
-    'this is a base class'
+    'where is the rebel base'
   end
 end
