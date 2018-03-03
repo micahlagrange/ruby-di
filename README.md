@@ -12,9 +12,7 @@ class TheEmpireStrikesBack
 end
 ```
   - run `ruby test.rb name-of-your-new-class`
-  
-`ruby test.rb the-empire-strikes-back`
- 
+   
 It will:
   - Require your new file, thereby putting your class into the scope
   - It will camelize to `NameOfYourNewClass`
