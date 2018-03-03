@@ -11,21 +11,21 @@ class TheEmpireStrikesBack
   end
 end
 ```
-  - run `ruby test.rb name-of-your-new-class`
+  - run `./test.rb name-of-your-new-class`
    
 It will:
   - Require your new file, thereby putting your class into the scope
   - It will camelize to `NameOfYourNewClass`
   - It will instantiate it, and call its `out` method
 ```
-$ ruby test.rb the-empire-strikes-back
+$ ./test.rb the-empire-strikes-back
 The empire did nothing wrong
 ```
   
 The script will fall back to BaseExample ( see `classes/base_example.rb`) if your class name doesn't match one that exists
 
 ```
-$ ruby test.rb a-nonexisting-class
+$ ./test.rb a-nonexisting-class
 where is the rebel base
 ```
 
@@ -37,4 +37,4 @@ cd ruby-di
 ./test.rb return-of-the-jedi
 ```
 
-Then go read `classes/rotj.rb` to understand what is happening under the hood
+Then go read `classes/rotj.rb` and `test.rb` to understand what is happening under the hood
